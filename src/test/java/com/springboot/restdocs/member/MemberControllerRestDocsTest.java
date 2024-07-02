@@ -164,7 +164,8 @@ public class MemberControllerRestDocsTest {
                                         fieldWithPath("data.email").type(JsonFieldType.STRING).description("이메일"),
                                         fieldWithPath("data.name").type(JsonFieldType.STRING).description("이름"),
                                         fieldWithPath("data.phone").type(JsonFieldType.STRING).description("휴대폰 번호"),
-                                        fieldWithPath("data.memberStatus").type(JsonFieldType.STRING).description("회원 상태: 활동중 / 휴면 상태 / 탈퇴 상태"),
+                                        fieldWithPath("data.memberStatus").type(JsonFieldType.STRING)
+                                                .description("회원 상태: 활동중 / 휴면 상태 / 탈퇴 상태"),
                                         fieldWithPath("data.stamp").type(JsonFieldType.NUMBER).description("스탬프 갯수")
                                 )
                         )
